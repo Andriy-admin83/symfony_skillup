@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+	{{dump()}}
+
+<h1> Hello, {{ some_var | default("World") }}! </h1>
+<div>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim in est vel bibendum. In ornare efficitur lectus ornare faucibus. Duis sed malesuada metus. Proin sit amet velit eget nibh laoreet mattis. Praesent id vulputate arcu. Etiam ac congue nisi. Nullam pulvinar cursus enim, ut commodo ligula egestas at. Cras finibus arcu nec nunc luctus facilisis. Sed accumsan commodo sem, quis volutpat nibh vestibulum a. Suspendisse potenti.</p>
+
+<p>Duis tortor nunc, commodo lobortis turpis nec, ultrices convallis ante. Proin a fringilla odio. Maecenas eros odio, dignissim et bibendum at, tempor eu orci. Aenean gravida bibendum pretium. In vel porta est, id auctor metus. Cras posuere justo nec leo commodo, quis imperdiet mi venenatis. Etiam imperdiet, odio et dignissim mollis, nulla turpis dapibus tellus, in feugiat turpis justo lobortis dolor. Maecenas ullamcorper nulla sit amet metus ultricies, sit amet porta tellus rhoncus. Aenean viverra at massa eu lacinia. Nullam ex massa, ullamcorper a ipsum id, tincidunt cursus purus. Praesent condimentum sem id purus rhoncus, ac imperdiet purus finibus. Phasellus in purus eu nisl molestie pharetra et et diam. Curabitur vel condimentum lacus. Sed at congue ipsum.</p>
+
+<p>Vivamus velit orci, imperdiet et consequat vitae, dictum at elit. Aliquam facilisis ut odio nec aliquam. Donec ultricies mattis mattis. Nulla facilisi. Maecenas pulvinar sollicitudin sem vitae pharetra. Nunc eget augue fringilla, accumsan nisl consectetur, venenatis sapien. Ut auctor risus nisl, vitae feugiat velit ullamcorper eu.</p>
+</div>
+
+{% endblock %}
